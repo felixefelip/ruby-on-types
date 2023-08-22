@@ -1,0 +1,3 @@
+class Calculadora
+  def somar: (valor_um: Float, valor_dois: Float) -> Float
+end
