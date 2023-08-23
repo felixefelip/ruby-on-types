@@ -1,5 +1,5 @@
 target :app do
-  check "app/services"
+  check "app"
   signature "sig"
 
   library "pathname"
