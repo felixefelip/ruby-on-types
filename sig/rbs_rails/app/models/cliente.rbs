@@ -219,6 +219,10 @@ class Cliente < ::ApplicationRecord
     def clear_updated_at_change: () -> void
   end
   include GeneratedAttributeMethods
+  def telefones: () -> Telefone::ActiveRecord_Associations_CollectionProxy
+  def telefones=: (Telefone::ActiveRecord_Associations_CollectionProxy | Array[Telefone]) -> (Telefone::ActiveRecord_Associations_CollectionProxy | Array[Telefone])
+  def telefone_ids: () -> Array[Integer]
+  def telefone_ids=: (Array[Integer]) -> Array[Integer]
 
   module GeneratedAssociationMethods
   end
